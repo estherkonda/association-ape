@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:wght@300 & family= Redressed & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px #747e7e;
+    z-index: 99;
+}
+@media  screen and (min-width: 540px) {
+    .cc-navbar{
+        font-size: 20px;
+    }
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.nav-link{
+    color: #ff5f5d;
+}
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/asset/img/42481694-matériel-scolaire-outils.webp') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+    box-shadow: 1px 1px 3px #747e7e;
+}
+@media screen and (max-width: 540px) {
+    .banner{
+        display: none;
+    }
+}
+
+.order-form{
+    height: 500px;
+}
+
+.banner {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+@media screen and (min-width: 540px) {
+    .banner {
+        font-size: 20px;
+    }
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+}
+
+.title{
+    text-align: center;
+    color: #ff5f5d; 
+    padding: 100px;
+}
+
+.photo img{
+    display: block;
+    width: 30%;
+    margin: auto;
+    width: 50em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;     
+}
+@media screen and (max-width: 540px) {
+    .photo{
+        display: none;
+    }
+}
+
+.paragraph{
+    display: table;
+    clear: both;
+    padding: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph div{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.column1{
+    float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+.column2{
+    float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+.column3{
+    float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+.titre{
+    color: #ff5f5d;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#e9e7f0;
+    color:#414346;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  .footer-basic .social{
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social  a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #4f51c4;
+    margin:0 8px;
+    color: inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social  a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#434ff0;
+    margin-bottom:0;
+  }
+
+
+  /* page calendrier*/
+
+
+.body{
+  margin: 0;
+}
+
+.section{
+  margin: 10rem;
+}
+.calendrier{
+  margin: 5em;
+}
+
+hr{
+  text-align: center; 
+  height: 10px; 
+  color: black; 
+  width: 80%;
+}
+
+.paragraph1{
+  /*text-align: center;*/
+  color: #0d5c30;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.paragraph2{
+  text-transform: uppercase;
+  color: #0d5c30;
+  font-size: 20px;
+}
+
+span{
+  font-weight: bold;
+  color: #4f51c4;
+}
+.paragraph3{
+  line-height: 3em;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.container .text {
+  background: transparent;
+  z-index: 1;
+  position: absolute;
+  text-align: left;
+  font-family: georgia;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  color: white;
+  width: 60%;
+}
+
+.galerie{
+
+}
+.titre1{
+  text-transform: uppercase;
+  color: #0d5c30;
+}
+
+.section2{
+  margin: 10rem;
+}

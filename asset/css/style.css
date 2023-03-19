@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:wght@300 & family= Redressed & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px #747e7e;
+    z-index: 99;
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.nav-link{
+    color: #0d5c30;
+}
+@media  screen and (max-width: 540px) {
+  .cc-navbar .nav-link{
+      font-size: 15px;
+  }
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/asset/img/42481694-matériel-scolaire-outils.webp') center center fixed no-repeat;
+    background-size: cover;
+    height: 300px;
+    box-shadow: 1px 1px 3px #747e7e;
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+@media screen and (max-width: 540px) {
+    .banner{
+        display: none;
+    }
+    .text-capitalize{
+      font-size: 20px;
+    }
+}
+
+.order-form{
+    height: 500px;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+}
+
+.title{
+    text-align: center;
+    color: #0d5c30; 
+    padding: 100px;
+}
+
+.photo img{
+    display: block;
+    width: 30%;
+    margin: auto;
+    width: 50em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;     
+}
+@media screen and (max-width: 540px) {
+    .photo{
+        display: none;
+    }
+}
+
+.paragraph{
+    display: table;
+    clear: both;
+    padding: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph div{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.column1{
+  float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+.column2{
+  float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+.column3{
+  float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+.titre{
+    color: #0d5c30;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#e9e7f0;
+    color:#414346;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  .footer-basic .social{
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social  a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #4f51c4;
+    margin:0 8px;
+    color: inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social  a:hover {
+    opacity:0.9;
+  }
+
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#434ff0;
+    margin-bottom:0;
+  }
+
+
+  /* page calendrier*/
+
+.section{
+  margin: 10rem;
+}
+.calendrier{
+  margin: 5em;
+}
+
+hr{
+  text-align: center; 
+  height: 10px; 
+  color: black; 
+  width: 80%;
+}
+
+.paragraph1{
+  /*text-align: center;*/
+  color: #0d5c30;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.paragraph2{
+  text-transform: uppercase;
+  color: #0d5c30;
+  font-size: 20px;
+}
+
+.text{
+  display: inline-block;
+}
+
+span{
+  font-weight: bold;
+  color: #4f51c4;
+}
+.paragraph3{
+  line-height: 3em;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.container .text {
+  background: transparent;
+  z-index: 1;
+  position: absolute;
+  text-align: left;
+  font-family: georgia;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  color: white;
+  width: 60%;
+}
+
+@media screen and (max-width: 540px) {
+  .section{
+    margin: 0;
+  }
+  .calendrier br{
+    font-size: 12px;
+  }
+  .container{
+    display: none;
+  }
+}
+/* page gallerie*/
+
+.galerie{
+  margin: 10rem;
+}
+.titre-galerie{
+  color: #0d5c30;
+  margin: 5rem;
+}
+
+.galerie-card{
+  margin: 10rem;
+
+}
+.card{
+  width: 500px;
+  height: 400px;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 250px;
+}
+@media screen and (max-width: 540px) {
+  .galerie{
+    margin: 1rem;
+  }
+  .galerie div br{
+    font-size: 12px;
+    display: none;
+  }
+  .galerie-card{
+    margin: 2rem;
+  }
+  .card{
+    width: 300px;
+  }
+  .card-img-top{
+    width: 150px;
+    height: 150px;
+  }
+  .card-body{
+    display: none;
+  }
+}
+
+
+/*page contact*/
+
+.contact{
+  background-image: url(../img/shutterstock-prix-liste-fournitures-scolaires-vertes-ecologiques-ecole-college-02.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.formulaire{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.formulaire 
+.all-elements{
+  background-color: rgb(92, 161, 128);
+  padding: 60px;
+  margin: auto;
+  width: 90%;
+  backdrop-filter:blur(10px);
+  z-index: 10000;
+  outline: none;
+  border-radius: 140px 0;
+}
+.all-elements h2{
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+input{
+  position: relative;
+  font-size: 0.9rem;
+  display: inline-block;
+  height: 28px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background: -webkit-linear-gradient(#f78f8d, #c4caef);
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+input::after{
+  content: '';
+  background: -webkit-linear-gradient(#edc0bf, #c4caef);
+  color: #fff;
+}
+.all-elements label{
+  position: relative;
+  font-size: 1.7rem;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  color: #fff;
+}
+.message{
+  margin-top: -12px;
+}
+.file{
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+  bottom: -1.5rem;
+}
+.file-input{
+  margin-top: 27px;
+  left: 30px;
+  position: relative;
+}
+.file-input label{
+  display: block;
+  position: relative;
+  height: 40px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #edc0bf 30%, #c4caef 68%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+  bottom: 1.5rem;
+  font-size: 25px;
+  width: 80%;
+  outline: none;
+  padding: 0.5rem 3.8rem;
+  text-transform: capitalize;
+  z-index: 10px;
+}
+input:hover + label,
+input:focus + label{
+  transform: scale(1.02);
+}
+.file-name{
+  position: absolute;
+  top: 2.5rem;
+  left: 10px;
+  font-size: 00.5rem;
+  color: #555;
+}
+textarea{
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  height: 150px;
+  resize: vertical;
+  padding: 1rem;
+  outline: none;
+  border-radius: 4px;
+  font-size: 00.9rem;
+  border: none;
+  background: -webkit-linear-gradient(#edc0bf, #c4caef 68%);
+  color: #fff;
+  margin-top: 5px;
+}
+
+.submit-btn{
+  color: #fff;
+  margin-top: 2rem;
+  position: relative;
+  bottom: 18px;
+  text-transform: uppercase;
+  padding: 8px 32px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #edc0bf 30%, #c4caef 68%);
+  z-index: 10000;
+  border: none;
+}
+::placeholder{
+  color: white;
+  font-weight: bolder;
+}
+.formulaire
+.all-elements:after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(90deg, #edc0bf 30%, #c4caef 68%);
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 50px;
+}
